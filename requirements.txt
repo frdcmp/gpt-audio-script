@@ -1,0 +1,11 @@
+streamlit
+pandas
+matplotlib
+librosa
+pydub
+openpyxl
+speechmatics-python
+openai
+natsort
+librosa
+matplotlib
