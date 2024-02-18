@@ -33,7 +33,7 @@ with st.expander ("Try on single text", expanded=False):
     if st.button("GPT", type="primary", use_container_width = True):
         system_prompt = f"{prompt} \n`{single_text}`"
         df = pd.DataFrame([single_text], columns=["Text"])
-        gpt = gpt(system_prompt)
+        gpt = gpt(system_prompt, model)
         st.code(gpt)
 
 with st.expander ("Audio script", expanded=True):
